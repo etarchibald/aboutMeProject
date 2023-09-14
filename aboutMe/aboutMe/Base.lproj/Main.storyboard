@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jI1-Bt-lwb">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="aboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pxfuel-2" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fFY-b5-0bc">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ehr-bR-3Um">
+                                <rect key="frame" x="169" y="157" width="55" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My name is  Ethan Archibald. I'm 21 years old. I was born in Sandy, moved to Lehi shortly after and lived here ever since. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J71-aY-FIz">
+                                <rect key="frame" x="16" y="634.66666666666663" width="361" height="105.33333333333337"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="profilePicture" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t78-ss-Fm3">
+                                <rect key="frame" x="80" y="267" width="233" height="323"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fFY-b5-0bc" secondAttribute="bottom" id="Fpc-Rn-Dc3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fFY-b5-0bc" secondAttribute="trailing" id="I4q-gt-W0f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t78-ss-Fm3" secondAttribute="trailing" constant="80" id="Ixv-yf-t5y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ehr-bR-3Um" secondAttribute="trailing" constant="169" id="SRD-de-FBc"/>
+                            <constraint firstItem="Ehr-bR-3Um" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="169" id="Wh8-oy-KHa"/>
+                            <constraint firstItem="fFY-b5-0bc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WwT-HJ-0Xv"/>
+                            <constraint firstItem="t78-ss-Fm3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="Yhn-aA-tTm"/>
+                            <constraint firstItem="fFY-b5-0bc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bfF-N7-g3e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J71-aY-FIz" secondAttribute="trailing" constant="16" id="ddi-i1-ZqJ"/>
+                            <constraint firstItem="t78-ss-Fm3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="208" id="h0g-gE-aK4"/>
+                            <constraint firstItem="J71-aY-FIz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="jIB-Bz-tDV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="J71-aY-FIz" secondAttribute="bottom" constant="29" id="jq8-bN-rdw"/>
+                            <constraint firstItem="Ehr-bR-3Um" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="98" id="tKa-il-3Xs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="t78-ss-Fm3" secondAttribute="bottom" constant="179" id="tq1-Qy-I4Z"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bio" image="person.crop.circle" catalog="system" id="5tI-v1-GbU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="377.86259541984731" y="-11.267605633802818"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rn9-gt-fud">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="jI1-Bt-lwb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vq2-hh-f7J">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="4zn-MJ-Xlg"/>
+                        <segue destination="H1b-Gi-OWW" kind="relationship" relationship="viewControllers" id="7CH-Au-xy2"/>
+                        <segue destination="WYv-Oe-MCj" kind="relationship" relationship="viewControllers" id="Let-Pu-Sw6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fWI-hZ-5mQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1021" y="-772"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="3Uq-AQ-hkx">
+            <objects>
+                <viewController id="H1b-Gi-OWW" customClass="ViewController" customModule="aboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qy3-tG-d87">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pxfuel-2" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QFz-oI-pTU">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qId-B8-ZDC">
+                                <rect key="frame" x="132" y="157" width="129" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In my family I am the 2nd of 4. I have a older brother, Braxson. A younger brother, Logan, and my youngest Sister named Alli" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOT-wG-nPw">
+                                <rect key="frame" x="16" y="627.66666666666663" width="361" height="105.33333333333337"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="familyPicture" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tTn-fQ-cYI">
+                                <rect key="frame" x="85" y="241" width="222" height="371"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Fwq-hn-Rje"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IOT-wG-nPw" firstAttribute="leading" secondItem="Fwq-hn-Rje" secondAttribute="leading" constant="16" id="02U-hs-d2t"/>
+                            <constraint firstItem="QFz-oI-pTU" firstAttribute="top" secondItem="Fwq-hn-Rje" secondAttribute="top" id="0BU-aR-TwN"/>
+                            <constraint firstItem="Fwq-hn-Rje" firstAttribute="trailing" secondItem="IOT-wG-nPw" secondAttribute="trailing" constant="16" id="1MA-Uv-QA1"/>
+                            <constraint firstItem="tTn-fQ-cYI" firstAttribute="leading" secondItem="Fwq-hn-Rje" secondAttribute="leading" constant="85" id="9vR-83-Na4"/>
+                            <constraint firstItem="qId-B8-ZDC" firstAttribute="leading" secondItem="Fwq-hn-Rje" secondAttribute="leading" constant="132" id="BYi-RZ-C0I"/>
+                            <constraint firstItem="Fwq-hn-Rje" firstAttribute="trailing" secondItem="tTn-fQ-cYI" secondAttribute="trailing" constant="86" id="CVP-jR-32m"/>
+                            <constraint firstItem="Fwq-hn-Rje" firstAttribute="bottom" secondItem="IOT-wG-nPw" secondAttribute="bottom" constant="36" id="DJ0-sw-ykn"/>
+                            <constraint firstItem="Fwq-hn-Rje" firstAttribute="bottom" secondItem="tTn-fQ-cYI" secondAttribute="bottom" constant="157" id="Uqd-eB-F2z"/>
+                            <constraint firstItem="Fwq-hn-Rje" firstAttribute="bottom" secondItem="QFz-oI-pTU" secondAttribute="bottom" id="eGi-rg-Iid"/>
+                            <constraint firstItem="qId-B8-ZDC" firstAttribute="top" secondItem="Fwq-hn-Rje" secondAttribute="top" constant="98" id="fiF-aW-wXK"/>
+                            <constraint firstItem="Fwq-hn-Rje" firstAttribute="trailing" secondItem="qId-B8-ZDC" secondAttribute="trailing" constant="132" id="jVY-l2-8iG"/>
+                            <constraint firstItem="Fwq-hn-Rje" firstAttribute="trailing" secondItem="QFz-oI-pTU" secondAttribute="trailing" id="oXZ-zy-SR4"/>
+                            <constraint firstItem="tTn-fQ-cYI" firstAttribute="top" secondItem="Fwq-hn-Rje" secondAttribute="top" constant="182" id="v5f-DB-0LI"/>
+                            <constraint firstItem="QFz-oI-pTU" firstAttribute="leading" secondItem="Fwq-hn-Rje" secondAttribute="leading" id="yGg-ZM-zaI"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" id="6bW-eg-ZIx">
+                        <imageReference key="image" image="figure.2.and.child.holdinghands" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6CG-6M-FLi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1081.679389312977" y="-11.267605633802818"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="GAe-Oy-V37">
+            <objects>
+                <viewController id="WYv-Oe-MCj" customClass="ViewController" customModule="aboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="omf-pt-b2t">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pxfuel-2" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fsu-vu-HjJ">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Hobbies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Out-mU-CoZ">
+                                <rect key="frame" x="118" y="157" width="156" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketballVolleyball" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ehM-HF-gqN">
+                                <rect key="frame" x="80" y="328" width="233" height="197"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="I really like to play basketball and volleyball with friends" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVE-vp-AYH">
+                                <rect key="frame" x="16" y="644" width="361" height="52.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="e4U-fg-r2u"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DVE-vp-AYH" firstAttribute="leading" secondItem="e4U-fg-r2u" secondAttribute="leading" constant="16" id="0Og-kH-cbE"/>
+                            <constraint firstItem="e4U-fg-r2u" firstAttribute="trailing" secondItem="DVE-vp-AYH" secondAttribute="trailing" constant="16" id="26i-eK-mFX"/>
+                            <constraint firstItem="e4U-fg-r2u" firstAttribute="bottom" secondItem="fsu-vu-HjJ" secondAttribute="bottom" id="7VM-OI-frh"/>
+                            <constraint firstItem="Out-mU-CoZ" firstAttribute="top" secondItem="e4U-fg-r2u" secondAttribute="top" constant="98" id="7ga-AX-tDh"/>
+                            <constraint firstItem="ehM-HF-gqN" firstAttribute="top" secondItem="e4U-fg-r2u" secondAttribute="top" constant="269" id="IoC-qw-cxE"/>
+                            <constraint firstItem="Out-mU-CoZ" firstAttribute="leading" secondItem="e4U-fg-r2u" secondAttribute="leading" constant="118" id="Kko-Ca-zlF"/>
+                            <constraint firstItem="fsu-vu-HjJ" firstAttribute="leading" secondItem="e4U-fg-r2u" secondAttribute="leading" id="S5G-gi-iH6"/>
+                            <constraint firstItem="e4U-fg-r2u" firstAttribute="trailing" secondItem="Out-mU-CoZ" secondAttribute="trailing" constant="119" id="TLI-6l-4Se"/>
+                            <constraint firstItem="e4U-fg-r2u" firstAttribute="trailing" secondItem="ehM-HF-gqN" secondAttribute="trailing" constant="80" id="cTI-rl-OQ3"/>
+                            <constraint firstItem="ehM-HF-gqN" firstAttribute="leading" secondItem="e4U-fg-r2u" secondAttribute="leading" constant="80" id="lRa-BF-k8D"/>
+                            <constraint firstItem="fsu-vu-HjJ" firstAttribute="top" secondItem="e4U-fg-r2u" secondAttribute="top" id="nLg-FO-1sN"/>
+                            <constraint firstItem="e4U-fg-r2u" firstAttribute="bottom" secondItem="DVE-vp-AYH" secondAttribute="bottom" constant="72.299999999999997" id="pKo-AV-hdX"/>
+                            <constraint firstItem="e4U-fg-r2u" firstAttribute="trailing" secondItem="fsu-vu-HjJ" secondAttribute="trailing" id="rRK-ZF-uB9"/>
+                            <constraint firstItem="e4U-fg-r2u" firstAttribute="bottom" secondItem="ehM-HF-gqN" secondAttribute="bottom" constant="244" id="wkr-NE-kC6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="figure.curling" catalog="system" id="Kuz-1M-Ti1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GeB-zH-HI1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1815" y="-11"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="basketballVolleyball" width="300" height="197"/>
+        <image name="familyPicture" width="918" height="1632"/>
+        <image name="figure.2.and.child.holdinghands" catalog="system" width="128" height="90"/>
+        <image name="figure.curling" catalog="system" width="128" height="88"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
+        <image name="profilePicture" width="1224" height="1632"/>
+        <image name="pxfuel-2" width="720" height="1520"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
